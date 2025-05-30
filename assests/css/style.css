@@ -132,7 +132,7 @@ body {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/Untitled\ design\(1\).png") no-repeat center center/cover;
+    background: #E7BB41;
 }
 
 /* General styles */
@@ -226,7 +226,7 @@ main {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #44BBA4
 }
 
 /* Media query: tablets and larger (768px and up) */
