@@ -1,3 +1,15 @@
+/* Mindful Moments for children – Strictly Palette Version
+   Palette: https://coolors.co/393e41-d3d0cb-e7e5df-44bba4-e7bb41
+   #393E41 (Gunmetal)
+   #D3D0CB (Timberwolf)
+   #E7E5DF (Isabelline)
+   #44BBA4 (Verdigris)
+   #E7BB41 (Saffron)
+*/
+header, main, footer, .petal-center, #hero {
+  position: relative;
+  z-index: 1;
+}
 body {
   margin: 0;
   min-height: 100vh;
@@ -15,6 +27,105 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/* --- Background Bubbles --- */
+.background-bubbles {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+.bubble {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.22;
+  filter: blur(2.5px);
+  animation-timing-function: ease-in-out;
+  mix-blend-mode: lighten;
+  box-shadow: 0 4px 50px 10px #393e4120;
+}
+.bubble1 {
+  width: 19vw; max-width: 320px; min-width: 120px;
+  height: 19vw; max-height: 320px; min-height: 120px;
+  left: 4vw; bottom: -12vw;
+  background: #44bba4;
+  animation: floatup1 21s infinite;
+}
+.bubble2 {
+  width: 15vw; max-width: 240px; min-width: 90px;
+  height: 15vw; max-height: 240px; min-height: 90px;
+  left: 14vw; bottom: -10vw;
+  background: #e7bb41;
+  animation: floatup2 25s infinite;
+}
+.bubble3 {
+  width: 23vw; max-width: 380px; min-width: 140px;
+  height: 23vw; max-height: 380px; min-height: 140px;
+  left: 59vw; bottom: -16vw;
+  background: #393e41;
+  animation: floatup3 26s infinite;
+}
+.bubble4 {
+  width: 14vw; max-width: 220px; min-width: 80px;
+  height: 14vw; max-height: 220px; min-height: 80px;
+  left: 80vw; bottom: -11vw;
+  background: #d3d0cb;
+  animation: floatup4 28s infinite;
+}
+.bubble5 {
+  width: 12vw; max-width: 170px; min-width: 60px;
+  height: 12vw; max-height: 170px; min-height: 60px;
+  left: 35vw; bottom: -8vw;
+  background: #e7e5df;
+  animation: floatup5 20s infinite;
+}
+.bubble6 {
+  width: 19vw; max-width: 290px; min-width: 100px;
+  height: 19vw; max-height: 290px; min-height: 100px;
+  left: 77vw; bottom: -13vw;
+  background: #44bba4;
+  animation: floatup6 22s infinite;
+}
+/* Bubble Keyframes (unchanged for smooth effect) */
+@keyframes floatup1 {
+  0%   { transform: translateY(0) translateX(0) scale(1);}
+  40%  { transform: translateY(-40vh) translateX(1vw) scale(1.05);}
+  60%  { transform: translateY(-60vh) translateX(-2vw) scale(1.08);}
+  100% { transform: translateY(-95vh) translateX(0.7vw) scale(1);}
+}
+@keyframes floatup2 {
+  0%   { transform: translateY(0) translateX(0) scale(1);}
+  35%  { transform: translateY(-35vh) translateX(-1.3vw) scale(1.1);}
+  70%  { transform: translateY(-70vh) translateX(1.5vw) scale(1.05);}
+  100% { transform: translateY(-100vh) translateX(-1vw) scale(1);}
+}
+@keyframes floatup3 {
+  0%   { transform: translateY(0) translateX(0) scale(1);}
+  50%  { transform: translateY(-55vh) translateX(2vw) scale(1.03);}
+  80%  { transform: translateY(-80vh) translateX(-2vw) scale(1.08);}
+  100% { transform: translateY(-120vh) translateX(1vw) scale(1);}
+}
+@keyframes floatup4 {
+  0%   { transform: translateY(0) translateX(0) scale(1);}
+  50%  { transform: translateY(-60vh) translateX(-1.8vw) scale(1.06);}
+  90%  { transform: translateY(-85vh) translateX(2vw) scale(1.04);}
+  100% { transform: translateY(-105vh) translateX(-2vw) scale(1);}
+}
+@keyframes floatup5 {
+  0%   { transform: translateY(0) translateX(0) scale(1);}
+  55%  { transform: translateY(-50vh) translateX(1vw) scale(1.07);}
+  85%  { transform: translateY(-80vh) translateX(-1vw) scale(1.02);}
+  100% { transform: translateY(-100vh) translateX(0.8vw) scale(1);}
+}
+@keyframes floatup6 {
+  0%   { transform: translateY(0) translateX(0) scale(1);}
+  45%  { transform: translateY(-45vh) translateX(1.5vw) scale(1.09);}
+  75%  { transform: translateY(-75vh) translateX(-1.2vw) scale(1.04);}
+  100% { transform: translateY(-110vh) translateX(1vw) scale(1);}
 }
 
 /* Hero section */
@@ -73,29 +184,26 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Navbar styles with dropdown toggle */
-nav {
-    position: absolute;
-    background-color: #ffffff;
-    width: 100%;
-    left: 0;
-    padding: 0 1rem;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
-    top: 100%;
+/* --- NAVBAR --- */
+.navbar {
+  background: #d3d0cb !important;
+  border-bottom: 2px solid #e7e5df;
 }
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #393e41 !important;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  transition: color 0.16s;
 
-/* Nav toggle */
-#nav-toggle:checked~nav {
-    display: block;
 }
-
-#nav-toggle {
-    display: none;
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #44bba4 !important;
 }
-
-.nav-toggle-label {
-    font-size: 2rem;
+.navbar-toggler {
+  border: 1.5px solid #44bba4;
 }
 
 /* Main content */
