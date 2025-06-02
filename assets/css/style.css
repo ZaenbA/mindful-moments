@@ -289,6 +289,17 @@ body {
   transform: scale(1.03);
   transition: box-shadow 0.2s, transform 0.2s;
 }
+.affirmation-card img {
+  max-width: 210px;
+  max-height: 900px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 14px auto 0 auto;
+  object-fit: contain;
+  border-radius: 210px;
+  box-shadow: 0 2px 8px #393e4120;
+}
 /* --- Section Dividers --- */
 .section-divider {
   position: relative;
