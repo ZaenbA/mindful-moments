@@ -297,7 +297,7 @@ body {
   display: block;
   margin: 14px auto 0 auto;
   object-fit: contain;
-  border-radius: 210px;
+  border-radius: 210px ;
   box-shadow: 0 2px 8px #393e4120;
 }
 /* --- Section Dividers --- */
