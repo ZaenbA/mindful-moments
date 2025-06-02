@@ -30,28 +30,69 @@ body {
     box-sizing: border-box;
 }
 
-/* --- Section Dividers --- */
-.section-divider {
-  position: relative;
-  background: transparent !important;
-  padding-bottom: 3.5rem !important;
+.bg-light,
+.bg-white {
+  background-color: #e7e5df !important;
 }
-.section-divider::after {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0; right: 0; bottom: 0;
-  width: 100%;
-  height: 24px;
-  background: linear-gradient(90deg,#e7e5df 70%, #d3d0cb 100%);
-  opacity: 0.55;
-  border-radius: 0 0 38px 38px / 0 0 70px 70px;
-  z-index: 2;
-  pointer-events: none;
+.bg-primary {
+  background-color: #44bba4 !important;
+  color: #e7e5df !important;
 }
-section:last-child.section-divider::after {
-  display: none;
+.bg-warning {
+  background-color: #e7bb41 !important;
+  color: #393e41 !important;
 }
+.bg-success {
+  background-color: #d3d0cb !important;
+  color: #393e41 !important;
+}
+.bg-info {
+  background-color: #e7e5df !important;
+}
+.bg-secondary {
+  background-color: #393e41 !important;
+  color: #e7e5df !important;
+}
+
+.text-primary {
+  color: #44bba4 !important;
+}
+.text-warning {
+  color: #e7bb41 !important;
+}
+.text-success {
+  color: #393e41 !important;
+}
+.text-info {
+  color: #44bba4 !important;
+}
+.text-muted {
+  color: #a5a2a0 !important;
+}
+
+/* --- NAVBAR --- */
+.navbar {
+  background: #d3d0cb !important;
+  border-bottom: 2px solid #e7e5df;
+}
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #393e41 !important;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  transition: color 0.16s;
+}
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #44bba4 !important;
+}
+.navbar-toggler {
+  border: 1.5px solid #44bba4;
+}
+
+
+
 
 
 /* --- Text Rainbow --- */
@@ -233,76 +274,42 @@ section:last-child.section-divider::after {
   color: #44bba4 !important;
 }
 
-
-/* General styles */
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Generic project styles */
-    color: #3a3a3a;
-    font-family: 'Lato', sans-serif;
-}
-
-/* Header */
-header {
-    background-color: #ffffff;
-    padding: 0 1rem;
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-}
-
-header a {
-    text-decoration: none;
-    color: inherit;
-}
-
-h1 {
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
-
-#menu {
-    font-size: 110%;
-    letter-spacing: 4px;
-    list-style-type: none;
-}
-
-#menu > li {
-    margin-bottom: 1em;
-}
-
-.active {
-    border-bottom: 1px solid #3a3a3a;
-}
-
-/* --- NAVBAR --- */
-.navbar {
-  background: #d3d0cb !important;
-  border-bottom: 2px solid #e7e5df;
-}
-.navbar-brand,
-.navbar-nav .nav-link {
-  color: #393e41 !important;
+/* --- Affirmation --- */
+.affirmation {
+  color: #44bba4;
+  background: #e7e5df !important;
+  font-style: italic;
   font-weight: 600;
-  letter-spacing: 0.03em;
-  transition: color 0.16s;
+  border: 2px ridge #44bba4;
+  box-shadow: 0 2px 12px #44bba425;
+}
 
+.affirmation-card:hover {
+  box-shadow: 0 4px 16px #44bba433;
+  transform: scale(1.03);
+  transition: box-shadow 0.2s, transform 0.2s;
 }
-.navbar-brand:hover,
-.navbar-nav .nav-link:hover,
-.navbar-nav .nav-link.active {
-  color: #44bba4 !important;
+/* --- Section Dividers --- */
+.section-divider {
+  position: relative;
+  background: transparent !important;
+  padding-bottom: 3.5rem !important;
 }
-.navbar-toggler {
-  border: 1.5px solid #44bba4;
+.section-divider::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  width: 100%;
+  height: 24px;
+  background: linear-gradient(90deg,#e7e5df 70%, #d3d0cb 100%);
+  opacity: 0.55;
+  border-radius: 0 0 38px 38px / 0 0 70px 70px;
+  z-index: 2;
+  pointer-events: none;
+}
+section:last-child.section-divider::after {
+  display: none;
 }
 
 /* Main content */
@@ -449,13 +456,4 @@ main {
     min-width: 0 !important;
     max-width: 99vw !important;
   }
-}
-
-/* --- Utility --- */
-.center {
-  text-align: center;
-  margin-bottom: 1.2em;
-}
-.gap-3 {
-  gap: 1.2rem !important;
 }
