@@ -6,6 +6,7 @@
    #44BBA4 (Verdigris)
    #E7BB41 (Saffron)
 */
+
 header, main, footer, .petal-center, #hero {
   position: relative;
   z-index: 1;
@@ -27,6 +28,40 @@ body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+/* --- Section Dividers --- */
+.section-divider {
+  position: relative;
+  background: transparent !important;
+  padding-bottom: 3.5rem !important;
+}
+.section-divider::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  width: 100%;
+  height: 24px;
+  background: linear-gradient(90deg,#e7e5df 70%, #d3d0cb 100%);
+  opacity: 0.55;
+  border-radius: 0 0 38px 38px / 0 0 70px 70px;
+  z-index: 2;
+  pointer-events: none;
+}
+section:last-child.section-divider::after {
+  display: none;
+}
+
+
+/* --- Text Rainbow --- */
+.text-rainbow {
+  background: linear-gradient(90deg, #44bba4 15%, #393e41 40%, #e7bb41 70%, #d3d0cb 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
 
 /* --- Background Bubbles --- */
@@ -128,12 +163,76 @@ body {
   100% { transform: translateY(-110vh) translateX(1vw) scale(1);}
 }
 
+/* --- FLIP CARDS --- */
+.flip-card {
+  background: transparent;
+  width: 220px;
+  height: 140px;
+  perspective: 600px;
+  margin: 0 auto 2rem auto;
+  cursor: pointer;
+  display: inline-block;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.7s cubic-bezier(0.4,2,0.6,1);
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner, .flip-card:focus .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%; height: 100%;
+  backface-visibility: hidden;
+  border-radius: 16px;
+  padding: 1.2rem;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 4px 12px #d3d0cbcc;
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+.flip-card-front { background: #e7bb41; color: #393e41; }
+.flip-card-back  { background: #44bba4; color: #e7e5df; transform: rotateY(180deg); }
+@media (max-width: 767px) {
+  .fact-cards { flex-direction: column !important; align-items: center !important;}
+  .flip-card { margin-bottom: 1.2rem; }
+}
+
+/* --- Info Cards --- */
+.card {
+  background: #e7e5df;
+  border-radius: 14px;
+  box-shadow: 0 2px 10px #d3d0cb33;
+  border: 2px solid #d3d0cb;
+}
+.card-title {
+  font-weight: bold;
+}
+
+/* Info Icons */
+.info-icon {
+  display: inline-block;
+  line-height: 0;
+  background: #44bba4;
+  color: #fff;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  border-radius: 50%;
+  padding: 0.5em;
+}
+
 /* Hero section */
 #hero {
-    height: 600px;
-    width: 100%;
-    background: #E7BB41;
+  background: linear-gradient(120deg, #e7e5df 0%, #d3d0cb 100%);
 }
+.text-primary-emphasis {
+  color: #44bba4 !important;
+}
+
 
 /* General styles */
 body {
@@ -213,6 +312,68 @@ main {
     margin-top: 47px;
 }
 
+/* --- Rainbow SVG and Rainbow Button --- */
+.rainbow-svg {
+  position: relative;
+  width: 340px;
+  height: 180px;
+  margin: 0 auto;
+}
+.rainbow-btn {
+  display: block;
+  margin: 0 auto 0.8em auto;
+  padding: 0.6em 1.6em;
+  font-size: 1.1em;
+  border-radius: 22px;
+  border: none;
+  background: linear-gradient(90deg, #44bba4 80%, #e7bb41 100%);
+  color: #e7e5df;
+  font-weight: bold;
+  opacity: 0.97;
+  cursor: pointer;
+  box-shadow: 0 2px 8px #393e4118;
+  transition: background 0.2s;
+}
+.rainbow-btn:hover, .rainbow-btn:focus {
+  background: linear-gradient(90deg, #393e41 60%, #44bba4 100%);
+  outline: 2px solid #e7bb41;
+}
+
+/* --- Mindfulness Section --- */
+.mindfulness h3 {
+  color: #44bba4;
+  text-align: center;
+  margin: 0.5em 0;
+  font-size: 1.2em;
+}
+.mindfulness ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+.mindfulness li {
+  margin: 0.45em 0;
+  font-size: 1.14em;
+}
+.mindfulness .one  { color: #44bba4; font-weight: bold;}
+.mindfulness .two  { color: #e7bb41; font-weight: bold;}
+.mindfulness .three { color: #393e41; font-weight: bold;}
+.mindfulness .four  { color: #d3d0cb; font-weight: bold;}
+.mindfulness .five  { color: #393e41; font-weight: bold; opacity: 0.8;}
+
+/* --- Petal Layout for Rainbow Section --- */
+.petal-center {
+  position: relative;
+  z-index: 2;
+  background: #fff;
+  border-radius: 38px;
+  padding: 2.3em 1.2em 2.5em 1.2em;
+  box-shadow: 0 4px 20px 0 #393e4115;
+  margin: 0 auto;
+  width: 360px;
+  max-width: 96vw;
+  text-align: center;
+}
 
 /* Footer */
 #social-networks {
@@ -270,4 +431,31 @@ main {
     #menu a:hover{
         border-bottom: 1px solid #3a3a3a;
     }
+}
+/* --- Responsive Tweak --- */
+@media (max-width: 1000px) {
+  .petal-center { width: 98vw; max-width: 99vw; }
+}
+@media (max-width: 700px) {
+  .petal-center { width: 99vw; max-width: 99vw; }
+}
+@media (max-width: 520px) {
+  .rainbow-svg {
+    width: 98vw;
+    min-width: 0;
+  }
+  #rainbow, #cloud {
+    width: 99vw !important;
+    min-width: 0 !important;
+    max-width: 99vw !important;
+  }
+}
+
+/* --- Utility --- */
+.center {
+  text-align: center;
+  margin-bottom: 1.2em;
+}
+.gap-3 {
+  gap: 1.2rem !important;
 }
