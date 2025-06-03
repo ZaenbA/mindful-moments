@@ -38,6 +38,34 @@ As a parent, I want to access trustworthy information about children’s mental 
 
 As an educator, I want to access easy and simple mindfulness activities suitable for the classroom, so that I can help my students feel calm and ready to learn in a safe and calming environment.
 
+# UX Design
+Theme:
+
+# Features
+
+# Deployment
+
+# AI Implementation
+
+# Testing and Validation
+
+During the process of making Mindful Moments website, testing and validating the code was done throughout the timeframe of the deadline. In it, I had to make sure I completed regular debugging which was done by either the live preview on VS Code and mostly on the Chrome Browser which had great Dev Tools to support in this matter.
+
+**W3Schools HTML Validator:**
+
+![alt text](assets/images/html-passed.png)
+![alt text](assets/images/w3c-css-passed.png)
+
+
+**Lighthouse:**
+
+![alt text](assets/images/desktop-lighthouse.png)
+![alt text](assets/images/mobile-lighthouse.png)
+
+
+# References / external links
+
+# Credits
 
 
 
