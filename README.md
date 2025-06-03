@@ -68,7 +68,7 @@ These fonts were chosen as they are clear and simple to read and they have a sof
 
 # **Features:**
 
-- Added interactive flip cards for children made sure they were easy to read and access.
+- Added interactive flip cards for children.
 - A simple and easy to follow exercise users can use immediataly.
 - Added floating bubbles with the help of ChatGPT to format the correct code for these bubbles to be animated in the background softly and easily blends well with the theme of the colours and fonts.
 *Example:*
