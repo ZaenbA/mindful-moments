@@ -6,7 +6,6 @@
  *[View Live Website](https://zaenba.github.io/mindful-moments/)*
 
 ## **Project Overview**
-Our mental health affects how we think, feel and get along with other people. By going through these big feelings, and can sometimes feel a little too much for us to handle, it helps us understand how we can handle stress, be able to relate to others, and make choices in those moments. Mental health is important for everyone, from when we are babies, to when we grow up and become adults.
 
 This website is created specifically to support children’s mental health, wellbeing, and mindfulness. It’s designed to help children understand and manage their big emotions in a safe, supportive environment. Parents can use it at home to guide their children, while schools can incorporate it into the classroom to encourage mindfulness. Although the main focus is on children, the website also serves as a helpful tool for parents, guardians, and educators to promote positive mental health and wellbeing for kids.
 
@@ -69,7 +68,7 @@ These fonts were chosen as they are clear and simple to read and they have a sof
 # **Features:**
 
 - Added interactive flip cards for children made sure they were easy to read and access.
-- A simple and easy to follow exercises users can use immediataly.
+- A simple and easy to follow exercise users can use immediataly.
 - Added floating bubbles with the help of ChatGPT to format the correct code for these bubbles to be animated in the background softly and easily blends well with the theme of the colours and fonts.
 **Example:**
 ![alt text](assets/images/animated-bubbles.gif)
@@ -84,10 +83,10 @@ This was done through GitHub. [GitHub](https://github.com/)
 In my website project, I used different AI models to help with various sections, making the site as calming and relaxing as possible. AI also assisted me in generating the right images for the project. There was a lot of trial and error, even though sometimes ChatGPT and Canva’s AI didn’t fully understand my prompts, however this turned out to be a valuable learning curve. It helped me figure out how to prompt AI tools more effectively, which led to great results, including the images ChatGPT generated for me. I also used Canva to resize and convert image files, which helped solve some minor issues I faced with Lighthouse. Once that was sorted, everything worked smoothly!!!
 
 - Tools I used:
-     - ChatGPT: For generating code and images as well as, framing activities that users can use anywhere.
-    - Canva: For design ideas, converting image files, and resizing.
-    - GitHub Copilot: For debugging and analyzing my code.
-    - CodePen: For debugging my code in real time.
+     - [ChatGPT](https://chatgpt.com/): For generating code and images as well as, framing activities that users can use anywhere.
+    - [Canva](https://www.canva.com/): For design ideas, converting image files, and resizing.
+    - [GitHub](https://github.com/features/copilot) Copilot: For debugging and analyzing my code.
+    - [CodePen](https://codepen.io/): For debugging my code in real time.
 
 I made sure my project met all the requirements and was inclusive and fair for everyone who might use it.
 
@@ -118,6 +117,10 @@ The following links have helped in picking out, the right and useful information
 - [BBC - Kids](https://www.bbc.co.uk/bitesize/articles/zndp6v4)
 - [Cosmic Kids](https://cosmickids.com/?s=mindfulness)
 
+The following are links that helped me during the project:
+- [CodeInstitute](https://codeinstitute.net/): Had great and easy lessons to understand HTML and CSS.
+- [Balsamiq](https://balsamiq.com/): Creating wireframe.
+- [Bootstrap](https://getbootstrap.com/docs/5.3/helpers/color-background/): Helped with colors and backgrounds, as well as the navbar. 
 
 
 
