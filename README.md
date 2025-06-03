@@ -96,19 +96,8 @@ During the process of making Mindful Moments website, testing and validating the
 # References / external links:
 The following links have helped in picking out, the right and useful information for the webpage about mental health:
 - [NHS - children and Young adults](https://www.nhs.uk/mental-health/children-and-young-adults/)
-- [BBC - Kids](https://www.bbc.co.uk/bitesize/articles/zkgs2v4)
+- [BBC - Kids](https://www.bbc.co.uk/bitesize/articles/zndp6v4)
 - [Cosmic Kids](https://cosmickids.com/mindfulness-activities-kids/)
-- 
-
-
-
-
-
-
-
-
-
-# Credits
 
 
 
