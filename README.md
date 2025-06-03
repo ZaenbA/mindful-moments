@@ -58,6 +58,9 @@ As an educator, I want to access easy and simple mindfulness activities suitable
 # *Wireframes:*
 ![alt text](assets/images/wireframe.png)
 
+*Responsive Design:*
+![alt text](assets/images/responsive-design.svg)
+
 # *Fonts used:*
 - Lato
 - Oswald
@@ -70,7 +73,7 @@ These fonts were chosen as they are clear and simple to read and they have a sof
 - Added interactive flip cards for children made sure they were easy to read and access.
 - A simple and easy to follow exercise users can use immediataly.
 - Added floating bubbles with the help of ChatGPT to format the correct code for these bubbles to be animated in the background softly and easily blends well with the theme of the colours and fonts.
-**Example:**
+*Example:*
 ![alt text](assets/images/animated-bubbles.gif)
 - Easy to read format.
 - Easy access to helpful links if needed.
@@ -120,7 +123,7 @@ The following links have helped in picking out, the right and useful information
 The following are links that helped me during the project:
 - [CodeInstitute](https://codeinstitute.net/): Had great and easy lessons to understand HTML and CSS.
 - [Balsamiq](https://balsamiq.com/): Creating wireframe.
-- [Bootstrap](https://getbootstrap.com/docs/5.3/helpers/color-background/): Helped with colors and backgrounds, as well as the navbar. 
+- [Bootstrap](https://getbootstrap.com/docs/5.3/helpers/color-background/): Helped with colors and backgrounds, as well as the navbar and other sections.
 
 
 
