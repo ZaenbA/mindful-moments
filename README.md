@@ -81,6 +81,19 @@ These fonts were chosen as they are clear and simple to read and they have a sof
 This was done through GitHub. [GitHub](https://github.com/)
 
 # **AI Implementation:**
+In my website project, I used different AI models to help with various sections, making the site as calming and relaxing as possible. AI also assisted me in generating the right images for the project. There was a lot of trial and error, even though sometimes ChatGPT and Canva’s AI didn’t fully understand my prompts, however this turned out to be a valuable learning curve. It helped me figure out how to prompt AI tools more effectively, which led to great results, including the images ChatGPT generated for me. I also used Canva to resize and convert image files, which helped solve some minor issues I faced with Lighthouse. Once that was sorted, everything worked smoothly!!!
+
+- Tools I used:
+     - ChatGPT: For generating code and images as well as, framing activities that users can use anywhere.
+    - Canva: For design ideas, converting image files, and resizing.
+    - GitHub Copilot: For debugging and analyzing my code.
+    - CodePen: For debugging my code in real time.
+
+I made sure my project met all the requirements and was inclusive and fair for everyone who might use it.
+
+Using AI significantly reduced the time it took to implement certain aspects of my code. Fast image generation meant I didn’t have to search for images online, which really brought my idea to life. Ultimately, AI helped me finish my project within the given timeframe with a lot less STRESS!
+
+
 
 # **Testing and Validation:**
 
@@ -96,8 +109,6 @@ During the process of making Mindful Moments website, testing and validating the
 
 ![alt text](assets/images/desktop-lighthouse.png)
 ![alt text](assets/images/mobile-lighthouse.png)
-
-
 
 
 
