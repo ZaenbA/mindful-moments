@@ -16,14 +16,14 @@ This website is created specifically to support children’s mental health, well
 
 ## **Table of Contents**
 
-[User Stories](#user-stories)
--[UX Design](#ux-design)
--[Features](#features)
--[Deployment](#deployment)
--[AI Implementation](#ai-implementation)
--[Testing and Validation](#testing-and-validation)
--[References / external links](#references)
--[Credits](#credits)
+- [User Stories](#user-stories)
+- [UX Design](#ux-design)
+- [Features](#features)
+- [Deployment](#deployment)
+- [AI Implementation](#ai-implementation)
+- [Testing and Validation](#testing-and-validation)
+- [References / external links](#references)
+- [Credits](#credits)
 
 ---
 
@@ -70,7 +70,7 @@ These fonts were chosen as they are clear and simple to read and they have a sof
 # Features
 
 # Deployment
-This was done through GitHub. 
+This was done through GitHub. [GitHub](https://github.com/)
 
 # AI Implementation
 
@@ -90,7 +90,23 @@ During the process of making Mindful Moments website, testing and validating the
 ![alt text](assets/images/mobile-lighthouse.png)
 
 
-# References / external links
+
+
+
+# References / external links:
+The following links have helped in picking out, the right and useful information for the webpage about mental health:
+- [NHS - children and Young adults](https://www.nhs.uk/mental-health/children-and-young-adults/)
+- [BBC - Kids](https://www.bbc.co.uk/bitesize/articles/zkgs2v4)
+- [Cosmic Kids](https://cosmickids.com/mindfulness-activities-kids/)
+- 
+
+
+
+
+
+
+
+
 
 # Credits
 
