@@ -1,7 +1,5 @@
 # **Mindful Moments**
-
-  
-   ![Mindful Moments Animated Banner](../mindful-moments/assets/images/animated-banner.gif)  
+![Mindful Moments Animated Banner](assets/images/animated-banner.gif)
 
  *[View Live Website](https://zaenba.github.io/mindful-moments/)*
 
