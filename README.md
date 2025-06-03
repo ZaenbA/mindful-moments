@@ -56,7 +56,7 @@ As an educator, I want to access easy and simple mindfulness activities suitable
 
 # UX Design
 # **Theme colors:**
-- These colors were chosen because they are intended for the user to feel at ease when accessing the website without feeling overwhelmed with bright flashy colors. There are animated floating bubbles to give it that little extra sensory moment for children that may suffer from autism and/ or other mental health concerns.
+- These colors were chosen because they are intended for the user to feel at ease when accessing the website without feeling overwhelmed with bright flashy colors. There are animated floating bubbles to give it that little extra sensory moment for children that may suffer from autism and/ or other mental health concerns. Colors were selected by [**Coolors**](https://coolors.co/393e41-d3d0cb-e7e5df-44bba4-e7bb41)
 ![alt text](assets/images/color-palette.png)
 # **Wireframes:**
 ![alt text](assets/images/wireframe.png)
@@ -64,8 +64,7 @@ As an educator, I want to access easy and simple mindfulness activities suitable
 # **Fonts used:**
 - Lato
 - Oswald
-These fonts were chosen as they are clear and simple to read and they have a soft touch to the website and do not have harsh edges around. Very good for the intended users. 
-
+These fonts were chosen as they are clear and simple to read and they have a soft touch to the website and do not have harsh edges around. Very good for the intended users. These fonts were implemeted by [**Google fonts**](https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap)
 
 
 # Features
