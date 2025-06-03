@@ -40,10 +40,13 @@ As an educator, I want to access easy and simple mindfulness activities suitable
 
 # UX Design
 Theme:
+![alt text](assets/images/wireframe.png)
+![alt text](assets/images/color-palette.png)
 
 # Features
 
 # Deployment
+This was done through GitHub. 
 
 # AI Implementation
 
