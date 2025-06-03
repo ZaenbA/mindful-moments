@@ -1,10 +1,9 @@
 # **Mindful Moments**
 
-    Image of website / amiresponsive:
-
+  
    ![Mindful Moments Animated Banner](../mindful-moments/assets/images/animated-banner.gif)  
 
-*Link to Live website — [View Live Website](https://zaenba.github.io/mindful-moments/)*
+ *[View Live Website](https://zaenba.github.io/mindful-moments/)*
 
 ## **Project Overview**
 Our mental health affects how we think, feel and get along with other people. By going through these big feelings, and can sometimes feel a little too much for us to handle, it helps us understand how we can handle stress, be able to relate to others, and make choices in those moments. Mental health is important for everyone, from when we are babies, to when we grow up and become adults.
@@ -27,7 +26,7 @@ This website is created specifically to support children’s mental health, well
 
 ---
 
-# User Stories
+# **User Stories:**
 As a user, I want to be able to feel calm when entering the website:
 - Soft visuals
 - Pastel colours
@@ -54,20 +53,30 @@ As a parent, I want to access trustworthy information about children’s mental 
 As an educator, I want to access easy and simple mindfulness activities suitable for the classroom, so that I can help my students feel calm and ready to learn in a safe and calming environment.
 - Find easy activity to use in a classroom setting.
 
-# UX Design
-# **Theme colors:**
+# **UX Design**
+# *Theme colors:*
 - These colors were chosen because they are intended for the user to feel at ease when accessing the website without feeling overwhelmed with bright flashy colors. There are animated floating bubbles to give it that little extra sensory moment for children that may suffer from autism and/ or other mental health concerns. Colors were selected by [**Coolors**](https://coolors.co/393e41-d3d0cb-e7e5df-44bba4-e7bb41)
 ![alt text](assets/images/color-palette.png)
-# **Wireframes:**
+# *Wireframes:*
 ![alt text](assets/images/wireframe.png)
 
-# **Fonts used:**
+# *Fonts used:*
 - Lato
 - Oswald
+
 These fonts were chosen as they are clear and simple to read and they have a soft touch to the website and do not have harsh edges around. Very good for the intended users. These fonts were implemeted by [**Google fonts**](https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap)
 
 
-# Features
+# **Features:**
+
+- Added interactive flip cards for children made sure they were easy to read and access.
+- A simple and easy to follow exercises users can use immediataly.
+- Added floating bubbles with the help of ChatGPT to format the correct code for these bubbles to be animated in the background softly and easily blends well with the theme of the colours and fonts.
+**Example:**
+![alt text](assets/images/animated-bubbles.gif)
+- Easy to read format.
+- Easy access to helpful links if needed.
+- Easy to understand.
 
 # Deployment
 This was done through GitHub. [GitHub](https://github.com/)
@@ -97,7 +106,7 @@ During the process of making Mindful Moments website, testing and validating the
 The following links have helped in picking out, the right and useful information for the webpage about mental health:
 - [NHS - children and Young adults](https://www.nhs.uk/mental-health/children-and-young-adults/)
 - [BBC - Kids](https://www.bbc.co.uk/bitesize/articles/zndp6v4)
-- [Cosmic Kids](https://cosmickids.com/mindfulness-activities-kids/)
+- [Cosmic Kids](https://cosmickids.com/?s=mindfulness)
 
 
 
